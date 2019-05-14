@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bindings.gui.SecondController">
+   <center>
+      <VBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblClone" prefHeight="18.0" prefWidth="227.0" text="ccco" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
